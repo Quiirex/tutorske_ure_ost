@@ -1,0 +1,131 @@
+/* CSS za oblikovanje HTML elementov */
+
+/* Glavni stil za celoten dokument */
+body {
+  font-family: Arial, sans-serif; /* Nastavitev pisave */
+  line-height: 1.6; /* Višina vrstičnega prostora */
+  margin: 0; /* Odstranitev zunanjih obrob */
+  padding: 20px; /* Notranji prostor okoli vsebine */
+}
+
+/* Naslov prve stopnje */
+h1 {
+  color: #333; /* Barva besedila */
+}
+
+/* Naslov druge stopnje */
+h2 {
+  color: #555; /* Barva besedila */
+  margin-top: 30px; /* Zunanji prostor zgoraj */
+}
+
+/* Paragraf teksta */
+p {
+  color: #666; /* Barva besedila */
+}
+
+/* Povezava */
+a {
+  color: #007bff; /* Barva besedila */
+  text-decoration: none; /* Odstranitev podčrtaja */
+}
+
+a:hover {
+  text-decoration: underline; /* Dodajanje podčrtaja ob premiku miške */
+}
+
+/* Neurejen seznam */
+ul {
+  list-style-type: disc; /* Sličice kot kroge */
+}
+
+/* Urejen seznam */
+ol {
+  list-style-type: decimal; /* Številke */
+}
+
+/* Obrazec */
+form {
+  margin-bottom: 20px; /* Zunanji prostor spodaj */
+}
+
+/* Glava tabele */
+th {
+  background: #f2f2f2; /* Barva ozadja */
+  padding: 8px; /* Notranji prostor */
+}
+
+/* Celica tabele */
+td {
+  padding: 8px; /* Notranji prostor */
+}
+
+/* Podrobnosti */
+details {
+  margin-bottom: 20px; /* Zunanji prostor spodaj */
+}
+
+/* Slika z opisom */
+figcaption {
+  font-style: italic; /* Italicizirano besedilo */
+}
+
+/* Video predvajalnik */
+video {
+  max-width: 100%; /* Največja širina */
+}
+
+/* Napredek */
+progress {
+  width: 100%; /* Širina */
+}
+
+/* Bločni citat */
+blockquote {
+  font-style: italic; /* Italicizirano besedilo */
+  color: #777; /* Barva besedila */
+}
+
+/* Koda */
+code {
+  background: #f8f8f8; /* Barva ozadja */
+  padding: 4px 8px; /* Notranji prostor */
+  border-radius: 4px; /* Zaobljeni robovi */
+}
+
+/* Tipkovnica */
+kbd {
+  background: #f2f2f2; /* Barva ozadja */
+  border: 1px solid #ccc; /* Rob */
+  padding: 2px 4px; /* Notranji prostor */
+  border-radius: 4px; /* Zaobljeni robovi */
+}
+
+/* Poudarek */
+mark {
+  background: #ff0; /* Barva ozadja */
+}
+
+/* Prečrtano besedilo */
+del,
+s {
+  text-decoration: line-through; /* Prečrtano besedilo */
+}
+
+/* Nadpisano besedilo */
+sup {
+  vertical-align: super; /* Poravnava nadpisano */
+}
+
+/* Podpisano besedilo */
+sub {
+  vertical-align: sub; /* Poravnava podpisano */
+}
+
+/* Noga */
+footer {
+  background: #f4f4f4; /* Barva ozadja */
+  padding: 20px; /* Notranji prostor */
+  text-align: center; /* Poravnava besedila */
+  margin-top: 50px; /* Zunanji prostor zgoraj */
+}

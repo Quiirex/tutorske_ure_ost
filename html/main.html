@@ -1,0 +1,264 @@
+<!-- Deklaracija tipa dokumenta -->
+<html>
+  <!-- Začetek HTML dokumenta -->
+  <head>
+    <!-- Glava dokumenta, vsebuje metapodatke -->
+    <title>Moja prva spletna stran</title>
+    <!-- Naslov strani, ki se prikaže v zavihku brskalnika -->
+    <meta charset="UTF-8" />
+    <!-- Nastavi znakovno kodo na UTF-8 -->
+    <meta name="description" content="Primer HTML dokumenta." />
+    <!-- Opis strani za iskalnike -->
+    <meta name="keywords" content="HTML, primer" />
+    <!-- Ključne besede za iskalnike -->
+    <meta name="author" content="Janez Novak" />
+    <!-- Avtor strani -->
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <!-- Povezava na zunanji CSS stil -->
+  </head>
+  <body>
+    <!-- Telo dokumenta, vsebuje vsebino, ki je vidna uporabnikom -->
+    <h1>Pozdravljeni, svet!</h1>
+    <!-- Naslov prve stopnje -->
+    <p>To je primer paragrafa v HTML.</p>
+    <!-- Paragraf teksta -->
+    <a href="https://www.example.com">Povezava do example.com</a>
+    <!-- Povezava do druge spletne strani -->
+    <h2>Neurejen seznam</h2>
+    <ul>
+      <!-- Neurejen seznam -->
+      <li>Prvi element</li>
+      <!-- Element seznama -->
+      <li>Drugi element</li>
+    </ul>
+    <h2>Urejen seznam</h2>
+    <ol>
+      <!-- Urejen seznam -->
+      <li>Prvi element</li>
+      <!-- Element seznama -->
+      <li>Drugi element</li>
+    </ol>
+    <h2>Obrazec</h2>
+    <form action="/submit" method="post">
+      <!-- Obrazec za pošiljanje podatkov -->
+      <label for="ime">Ime:</label>
+      <!-- Oznaka za vnosno polje -->
+      <input type="text" id="ime" name="ime" />
+      <!-- Vnosno polje -->
+      <input type="submit" value="Pošlji" />
+      <!-- Gumb za pošiljanje obrazca -->
+    </form>
+  </body>
+</html>
+
+<h2>Tabela</h2>
+<table>
+  <!-- Tabela -->
+  <tr>
+    <!-- Vrstica tabele -->
+    <th>Ime</th>
+    <!-- Glava tabele -->
+    <th>Priimek</th>
+    <!-- Glava tabele -->
+  </tr>
+  <tr>
+    <!-- Vrstica tabele -->
+    <td>Janez</td>
+    <!-- Celica tabele -->
+    <td>Novak</td>
+    <!-- Celica tabele -->
+  </tr>
+  <tr>
+    <!-- Vrstica tabele -->
+    <td>Marija</td>
+    <!-- Celica tabele -->
+    <td>Kovač</td>
+    <!-- Celica tabele -->
+  </tr>
+</table>
+
+<h2>Podrobnosti</h2>
+<details>
+  <!-- Podrobnosti, ki jih lahko uporabnik razširi ali skrči -->
+  <summary>Naslov podrobnosti</summary>
+  <!-- Naslov podrobnosti -->
+  <p>To je vsebina podrobnosti.</p>
+  <!-- Vsebina podrobnosti -->
+</details>
+
+<h2>Slika</h2>
+<figure>
+  <!-- Slika z opisom -->
+  <img
+    src="https://i.pinimg.com/736x/7f/64/3f/7f643f0db514d7971349c416e29e42a8.jpg"
+    alt="Opis slike"
+  />
+  <!-- Slika -->
+  <figcaption>To je opis slike.</figcaption>
+  <!-- Opis slike -->
+</figure>
+
+<h2>Video</h2>
+<video controls>
+  <!-- Video predvajalnik -->
+  <source src="sample-5s.mp4" type="video/mp4" />
+  <!-- Vir videa -->
+  Your browser does not support the video tag.
+  <!-- Sporočilo, če brskalnik ne podpira video značke -->
+</video>
+
+<h2>Napredek</h2>
+<progress value="70" max="100">
+  <!-- Napredek -->
+  70%
+</progress>
+
+<h2>Naslov</h2>
+<address>
+  <!-- Naslov -->
+  1234 Street Name, City, Country
+</address>
+
+<h2>Bločni citat</h2>
+<blockquote cite="https://example.com">
+  <!-- Citat -->
+  To je citat.
+</blockquote>
+
+<h2>Koda</h2>
+<code>
+  <!-- Koda -->
+  console.log('Hello, world!');
+</code>
+
+<h2>Tipkovnica</h2>
+<kbd>
+  <!-- Tipkovna bližnjica -->
+  Ctrl + C
+</kbd>
+
+<h2>Poudarek</h2>
+<mark>
+  <!-- Poudarek -->
+  To je poudarek.
+</mark>
+
+<h2>Čas</h2>
+<time datetime="2022-01-01">
+  <!-- Čas -->
+  1. januar 2022
+</time>
+
+<h2>Kratica</h2>
+<abbr title="Hypertext Markup Language">
+  <!-- Kratica -->
+  HTML
+</abbr>
+
+<h2>Prečrtano besedilo</h2>
+<del>
+  <!-- Prečrtano besedilo -->
+  To je prečrtano besedilo.
+</del>
+
+<h2>Prečrtano besedilo</h2>
+<s>
+  <!-- Prečrtano besedilo -->
+  To je prečrtano besedilo.
+</s>
+
+<h2>Nadpisano besedilo</h2>
+<sup>
+  <!-- Nadpisano besedilo -->
+  To je nadpisano besedilo.
+</sup>
+
+<h2>Podpisano besedilo</h2>
+<sub>
+  <!-- Podpisano besedilo -->
+  To je podpisano besedilo.
+</sub>
+
+<h2>Poudarjeno besedilo</h2>
+<em>
+  <!-- Poudarjeno besedilo -->
+  To je poudarjeno besedilo.
+</em>
+
+<h2>Močno poudarjeno besedilo</h2>
+<strong>
+  <!-- Krepko besedilo -->
+  To je krepko besedilo.
+</strong>
+
+<h2>Majhno besedilo</h2>
+<small>
+  <!-- Majhno besedilo -->
+  To je majhno besedilo.
+</small>
+
+<h2>Veliko besedilo</h2>
+<big>
+  <!-- Veliko besedilo -->
+  To je veliko besedilo.
+</big>
+
+<h2>Citat</h2>
+<q>
+  <!-- Kratek citat -->
+  To je kratek citat.
+</q>
+
+<h2>Definicija</h2>
+<dfn>
+  <!-- Opredelitev -->
+  To je opredelitev.
+</dfn>
+
+<h2>Članek, navigacija, sekcija, članek, ob strani, noga</h2>
+<div>
+  <header>
+    <!-- Glava dokumenta -->
+    <h1>Naslov</h1>
+    <!-- Naslov prve stopnje -->
+  </header>
+  <nav>
+    <!-- Navigacija -->
+    <ul>
+      <!-- Neurejen seznam -->
+      <li>
+        <!-- Element seznama -->
+        <a href="#">Povezava 1</a>
+        <!-- Povezava -->
+      </li>
+      <li>
+        <!-- Element seznama -->
+        <a href="#">Povezava 2</a>
+        <!-- Povezava -->
+      </li>
+    </ul>
+  </nav>
+  <section>
+    <!-- Sekcija -->
+    <article>
+      <!-- Članek -->
+      <h2>Naslov članka</h2>
+      <!-- Naslov druge stopnje -->
+      <p>Vsebina članka.</p>
+      <!-- Paragraf teksta -->
+    </article>
+  </section>
+  <aside>
+    <!-- Stranska vrstica -->
+    <h2>Naslov stranske vrstice</h2>
+    <!-- Naslov druge stopnje -->
+    <p>Vsebina stranske vrstice.</p>
+    <!-- Paragraf teksta -->
+  </aside>
+  <footer>
+    <!-- Noga dokumenta -->
+    <p>Copyright &copy; 2024. Vse pravice pridržane.</p>
+  </footer>
+</div>
+
+<!--Vaja za Flexbox: https://flexboxfroggy.com/ in Grid: https://cssgridgarden.com/ -->
